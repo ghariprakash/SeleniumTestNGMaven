@@ -11,7 +11,7 @@ public class MavenHandsOn {
 void launchBrowser() {
 	
 	// Using  Using FirefoxOptions:	
-	// Working Fine and pushed to github
+	// Working Fine
 	System.setProperty("webdriver.gecko.driver", "E:\\Work\\Selenium\\JARs\\Browser_Drivers\\Gecko\\v0.19.0\\geckodriver-v0.19.0-win64\\geckodriver.exe");
 	FirefoxOptions options = new FirefoxOptions();
 	WebDriver driver= new FirefoxDriver(options); 
